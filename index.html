@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman - Moore & McCaughan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            Hangman
+            <p>By: Melissa Moore & Shawn McCaughan</p>
+        </header>
+
+        <div id="combined">
+            <div id="hangman" class="hangmanCenter">
+                <img id="gallowPic" src="images/hangman0.png" alt="Hangman0">
+            </div>
+            <div id="word">
+                <div id="wordToGuess"></div><br>
+                <div id="guessesRemaining"></div>
+                <div id="category"></div>
+                <div id="theWord"></div><br>
+
+            </div>
+        </div>
+
+        <div id="content">
+            <p id="lettersRemaining">Letters Remaining</p>
+            <div id="letters">
+                <button value="a">A</button>
+                <button value="b">B</button>
+                <button value="c">C</button>
+                <button value="d">D</button>
+                <button value="e">E</button>
+                <button value="f">F</button>
+                <button value="g">G</button>
+                <button value="h">H</button>
+                <button value="i">I</button>
+                <button value="j">J</button>
+                <button value="k">K</button>
+                <button value="l">L</button>
+                <button value="m">M</button>
+                <button value="n">N</button>
+                <button value="o">O</button>
+                <button value="p">P</button>
+                <button value="q">Q</button>
+                <button value="r">R</button>
+                <button value="s">S</button>
+                <button value="t">T</button>
+                <button value="u">U</button>
+                <button value="v">V</button>
+                <button value="w">W</button>
+                <button value="x">X</button>
+                <button value="y">Y</button>
+                <button value="z">Z</button>
+            </div>
+        </div>
+        <div id="newGame">
+            <button id="btnNewGame">New Game</button><br><br>
+            <div id=choiceCategories>
+                <h2 id="choices"></h2>
+                <button id="countries">Countries</button>
+                <button id="flowers">Flowers</button>
+                <button id="legal">Legal</button>
+                <button id="temporal">Temporal</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="GameController.js"></script>
+</body>
+
+</html>
