@@ -147,29 +147,29 @@ function changePictures() {
 
     switch (guess) {
         case 5:
-            gallow.src = "images/hangman1.png";
+            gallow.src = "Images/hangman1.png";
             break;
         case 4:
-            gallow.src = "images/hangman2.png";
+            gallow.src = "Images/hangman2.png";
             break;
         case 3:
-            gallow.src = "images/hangman3.png";
+            gallow.src = "Images/hangman3.png";
             break;
         case 2:
-            gallow.src = "images/hangman4.png";
+            gallow.src = "Images/hangman4.png";
             break;
         case 1:
-            gallow.src = "images/hangman5.png";
+            gallow.src = "Images/hangman5.png";
             break;
         case 0:
-            gallow.src = "images/hangman6.png";
+            gallow.src = "Images/hangman6.png";
             alert("\t\tYou lost!\n\nClick 'New Game' to play again.");
             toggleNewGameBtn(true);
             document.querySelector("#theWord").style.display = 'block';
             disableButtons(true);
             break;
         default:
-            gallow.src = "images/hangman0.png";
+            gallow.src = "Images/hangman0.PNG";
             break;
     }
 }
