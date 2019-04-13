@@ -37,7 +37,7 @@ function parseJSON(obj) {
 }
 
 function newGame() {
-    document.querySelector("#gallowPic").src = "images/hangman0.png";
+    document.querySelector("#gallowPic").src = "Images/hangman0.PNG";
     document.querySelector("#theWord").style.display = 'none';
     document.querySelector("#choices").innerHTML = "Please choose a category:";
     togglePicAndStats(false);
