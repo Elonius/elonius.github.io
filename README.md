@@ -1,1 +1,1 @@
-# elonius.github.io
+# Hangman game in the browser -> elonius.github.io
